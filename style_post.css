@@ -117,3 +117,12 @@ a:hover {
     color: black;
     transition: 0.2s;
 }
+
+.container-button {
+    margin-top: 0.5rem;
+}
+
+#prof {
+    color: rgb(0, 0, 0);
+    
+}
