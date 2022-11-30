@@ -48,7 +48,7 @@
 }
 
 #text {
-    word-break: break-all;
+    word-break: inherit;
     line-height: 1.5rem;
     width: 100%;
 }
@@ -105,6 +105,14 @@
 
 #pic {
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+}
+
+#pic-large {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 30rem;
 }
 
 a {
@@ -125,4 +133,39 @@ a:hover {
 #prof {
     color: rgb(0, 0, 0);
     
+}
+
+
+#title-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#text-space {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    word-break: inherit;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+#text-center {
+    text-align: center;
+}
+
+#surlign {
+    font-weight: bold;
+}
+
+#publish {
+    margin-top: 0.5rem;
+    opacity: 0.5;
+    word-break: break-all;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+#sub-title-text {
+    opacity: 0.3;
+    margin-bottom: 1rem;
 }
